@@ -1,0 +1,97 @@
+/* Login.css */
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    flex-direction: row;
+  }
+}
+
+.login-left {
+  width: 100%;
+  background-color: #4169e1;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .login-left {
+    width: 50%;
+    padding: 2.5rem;
+  }
+}
+
+.login-right {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .login-right {
+    width: 50%;
+    padding: 2.5rem;
+  }
+}
+
+.logo-simpel {
+  background: white;
+  color: #2d3748; /* gray.800 */
+  font-weight: 600;
+  font-style: italic;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.login-heading {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.simpel-text {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #4169e1;
+}
+
+.login-text {
+  text-align: justify;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.login-button {
+  background-color: #4169e1 !important;
+  color: white !important;
+  font-weight: bold !important;
+  border-radius: 8px !important;
+  padding: 0.75rem 1.5rem !important;
+  transition: all 0.3s ease !important;
+}
+
+.login-button:hover {
+  background-color: #4169e1 !important;
+  transform: scale(1.02) !important;
+}
+
+.login-button:active {
+  background-color: #2a4365 !important;
+  transform: scale(0.98) !important;
+}
+
+.checkbox-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

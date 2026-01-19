@@ -1,78 +1,70 @@
-# SIMPEL – Learning Management System
+# Getting Started with Create React App
 
-SIMPEL (Sistem Informasi Pembelajaran Elektronik) is a web-based Learning Management System designed to manage digital learning activities for schools, teachers, and students.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## User Roles
-- Admin
-- Teacher
-- Student
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## Features
+### `npm start`
 
-### Authentication
-- Secure login for Admin, Teacher, and Student
-- Profile management
-- Logout functionality
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
----
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Admin Features
-- Create and manage announcements
-- Manage subjects / courses (create, view, edit, delete, filter)
-- Create and manage discussion forums
-- Upload learning materials (Video, PDF, PPT)
-- Create assignments, quizzes, and exams
-- Review and grade student submissions
-- Manage students within subjects
-- User management (teachers & students)
-- Master data management:
-  - Departments
-  - Classes
-  - Teacher status
-  - Academic year
-  - Semester
-- School customization settings
-- View and edit admin profile
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-###  Teacher Features
-- View announcements
-- Create and manage subjects / courses
-- Create discussion forums
-- Upload learning materials (Video, PDF, PPT)
-- Create assignments, quizzes, and exams
-- Review and grade student submissions
-- Manage students within subjects
-- View teacher and student data
-- View and edit profile
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-###  Student Features
-- View announcements
-- Join subjects / courses
-- Access learning materials
-- Participate in discussion forums
-- Submit assignments
-- View grades
-- Receive notifications
-- Activity history tracking
-- Edit profile
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
----
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Tech Stack
-- React.js
-- JavaScript
-- HTML5 & CSS3
-- REST API
-- Git & GitHub
+### `npm run eject`
 
-## Project Type
-Academic / Team Project
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Author
-Teguh Firmansyah
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
